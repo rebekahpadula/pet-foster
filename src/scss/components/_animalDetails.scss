@@ -1,0 +1,65 @@
+.details {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2em;
+    padding-bottom: calc(20px + #{$bar-height});
+}
+
+.details:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.pet-img {
+    display: block;
+}
+
+.details-button {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.animal-details-photo {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.font, .animal-details {
+    display: inline-block;
+}
+
+.font {
+    font-variant: small-caps;
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.animal-info-section {
+    margin: 0 auto;
+}
+
+.animal-info-section:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.animal-bio-section {
+    padding: 0px 20px;
+    margin: 0 auto;
+}
+
+.animal-info-section,
+.animal-bio-section {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+.buttons {
+    display: block;
+    margin-bottom: 2em;
+}

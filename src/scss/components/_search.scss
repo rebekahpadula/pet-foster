@@ -1,0 +1,112 @@
+.search-view {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.search-by-animal, .search-by-location {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.available-animal-slot {
+    max-width: 100%;
+    padding-bottom: calc(20px + #{$bar-height});
+}
+
+.form-section {
+    margin: 1.5em 0;
+    text-align: center;
+}
+
+.search-by {
+    font-size: 22px;
+    padding-bottom: 1em;
+    text-align: center;
+    display: block;
+}
+
+input[type=text], input[type=email] {
+    width: 200px;
+    padding: 0.5em;
+    margin: auto;
+}
+
+input[type=radio] {
+    margin: 5px;
+}
+
+.shelters-slot {
+    padding-bottom: calc(20px + #{$bar-height});
+}
+
+.list-view-header {
+    font-size: 20px;
+}
+
+#shelters-zipcode {
+    margin-bottom: 20px;
+}
+
+.search-section {
+    float: left;
+    width: 50%;
+    padding: 1em;
+}
+
+.background:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#location, #type {
+    display: inline-block;
+}
+
+label[for=location], label[for=type] {
+    display: block;
+}
+
+label[for=location]:before, label[for=type]:before {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+#breed, label[for=breed] {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+#breed {
+    margin: 0 auto;
+}
+
+
+label {
+    font-size: 22px;
+    display: block;
+}
+
+.search-button {
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+    font-family: 'Amatic SC', sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    background: #8bd76e;
+    padding: 8px;
+    text-decoration: none;
+    border: none;
+    margin-left: 45%;
+}
+
+.search-button:hover {
+    background: #66cc33;
+}
+
+.shelter-list {
+    margin-left: 150px;
+}

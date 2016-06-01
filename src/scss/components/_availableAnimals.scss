@@ -1,0 +1,30 @@
+.availableAnimals {
+    width: 100%;
+    height: 300px;
+    min-height: 100%;
+    list-style-type: none;
+    overflow-x: scroll;
+    font-size: 0px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    li.pet-profile {
+        flex: 1 0 30%;
+        height: 100%;
+        cursor: pointer;
+        margin: 10px;
+        transition: all 0.3s;
+        position: relative;
+        &:hover {
+            flex-basis: 35%;
+        }
+    }
+}
+
+.pet-img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}

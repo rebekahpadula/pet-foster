@@ -1,0 +1,51 @@
+<div class="header">Find a pet to foster!</div>
+<div class="search-section">
+    <div class="background">
+        <div class="search-by">Search for animals in your area by type and breed</div>
+        <div class="search-by-animal">
+
+            <div class="form-section">
+                <label for="location">Location</label>
+                <input type="text" id="location" class="search-input" placeholder="zipcode or city, state" value="<%= location %>"/>
+            </div>
+
+            <div class="form-section">
+                <label for="type">Type</label>
+                <select id="type" class="search-input">
+                    <option value=""></option>
+                    <option value="barnyard">Barnyard</option>
+                    <option value="bird">Bird</option>
+                    <option value="cat">Cat</option>
+                    <option value="dog">Dog</option>
+                    <option value="horse">Horse</option>
+                    <option value="pig">Pig</option>
+                    <option value="reptile">Reptile</option>
+                    <option value="smallfurry">Small & Furry</option>
+                </select>
+            </div>
+
+            <div class="form-section">
+                <label for="breed">Breed</label>
+                <select id="breed" class="search-input"></select>
+            </div>
+
+            <button id="animal-search" class="search-button">Search</button>
+        </div>
+    </div>
+</div>
+
+<div class="search-section">
+    <div class="background">
+        <div class="search-by form-title">Or search by shelter</div>
+        <div class="search-by-location">
+            <div class="form-section shelter-form">
+                <label for="shelters-zipcode">Location</label>
+                <input type="text" id="shelters-zipcode" class="search-input" placeholder="zipcode or city, state"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="shelters-slot"></div>
+
+<div class="available-animal-slot results-slot"></div>

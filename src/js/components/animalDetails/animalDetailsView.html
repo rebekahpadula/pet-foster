@@ -1,0 +1,44 @@
+<img class="animal-details-photo" src="<%= media.photos.photo[3] %>">
+
+<div class="buttons">
+    <button class="foster-button details-button btn">Apply to foster me</button>
+    <button class="favorites-button details-button btn">Add to favorites</button>
+</div>
+
+<div class="animal-info-section deets">
+    <div class="background">
+        <div class="details-section">
+            <div class="font">shelter: </div>
+            <div class="animal-details"><%= contact.email %></div>
+        </div>
+        <div class="details-section">
+            <div class="font">name: </div>
+            <div class="animal-details"><%= name %></div>
+        </div>
+
+        <div class="details-section">
+            <div class="font">type: </div>
+            <div class="animal-details"><%= animal %></div>
+        </div>
+
+        <div class="details-section">
+            <div class="font">breed: </div>
+            <div class="animal-details"><%= breeds.breed %></div>
+        </div>
+
+        <div class="details-section">
+            <div class="font">age: </div>
+            <div class="animal-details"><%= age %></div>
+        </div>
+
+        <div class="details-section">
+            <div class="font">size: </div>
+            <div class="animal-details"><%= size %></div>
+        </div>
+    </div>
+</div>
+<div class="animal-bio-section">
+    <div class="background">
+        <div class="bio"><%= description %></div>
+    </div>
+</div>

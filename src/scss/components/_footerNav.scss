@@ -1,0 +1,25 @@
+@import '../vars';
+
+.footer-nav-view {
+    position: fixed;
+    bottom: 0;
+    background-color: #333;
+    width: 100%;
+    height: $bar-height;
+    text-align: center;
+    opacity: 0.9;
+    .nav {
+        font-family: 'Amatic SC', sans-serif;
+        display: inline-block;
+        padding: 0 2em;
+        line-height: $bar-height;
+        font-size: 40px;
+        font-variant: small-caps;
+        text-transform: lowercase;
+        color: white;
+    }
+    .nav:hover {
+        cursor: pointer;
+        background: #212121;
+    }
+}

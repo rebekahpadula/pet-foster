@@ -1,0 +1,33 @@
+@import 'normalize';
+@import 'vars';
+@import './components/app';
+@import './components/footerNav';
+@import './components/animalDetails';
+@import './components/availableAnimals';
+@import './components/dashboard';
+@import './components/search';
+@import './components/myInfo';
+@import './components/background';
+@import './components/buttons';
+
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html, body, #app-container {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #c2f1f6;
+    background-repeat: no-repeat;
+}
+
+.page-slot {
+    height: 100%;
+    margin: 0 auto;
+    padding-bottom: calc(20px + #{$bar-height});
+}
